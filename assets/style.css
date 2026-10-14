@@ -79,13 +79,13 @@ input:focus,select:focus,textarea:focus{outline:0;border-color:var(--red)}
 .info span{font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--mute)}
 .cta-band{text-align:center}.cta-band h2{max-width:760px;margin:0 auto 34px}
 /* footer */
-footer{background:var(--ink);color:#bbb;padding:70px 0 34px}
-.fgrid{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:50px;padding-bottom:50px;border-bottom:1px solid #2a2a2d}
-footer .word{font-family:var(--serif);font-size:2rem;color:#fff}footer .word b{color:var(--red);font-weight:500}
-footer .word small{display:block;font-family:var(--sans);font-size:.6rem;letter-spacing:.42em;text-transform:uppercase;margin-top:6px;color:#bbb}
-footer h4{color:#fff;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;margin-bottom:18px}
-footer li{list-style:none;margin-bottom:8px}footer a:hover{color:var(--red)}
-.copy{padding-top:26px;font-size:.78rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+footer{background:var(--stone);color:var(--mute);padding:80px 0 30px;border-top:3px solid var(--red)}
+.fgrid{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:60px;padding-bottom:56px;border-bottom:1px solid var(--line)}
+.flogo{align-items:flex-start}.flogo img{height:64px}.flogo small{font-size:.62rem;padding-left:0;margin-top:8px}
+.ftag{margin-top:24px;max-width:340px;font-family:var(--serif);font-size:1.25rem;font-style:italic;color:var(--ink);line-height:1.4}
+footer h4{color:var(--ink);font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;margin-bottom:20px}
+footer li{list-style:none;margin-bottom:10px;font-size:.95rem}footer a{transition:color .3s}footer a:hover{color:var(--red)}
+.copy{padding-top:28px;font-size:.78rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
 .reveal{opacity:0;transform:translateY(28px);transition:.9s cubic-bezier(.2,.7,.2,1)}.reveal.in{opacity:1;transform:none}
 @media(max-width:860px){
 section{padding:76px 0}.split,.work,.fgrid{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}
